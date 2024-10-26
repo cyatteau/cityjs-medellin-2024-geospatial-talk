@@ -1,4 +1,4 @@
-# CityJS Medellin 2024: Decoding the Geospatial Web: An Introduction to GIS for JavaScript Developers
+# CityJS Medellin 2024: Decoding the Geospatial Web: An Introduction to GIS for JavaScript Developers 🗺️
 
 Welcome to my CityJS Medellin 2024 presentation on integrating geospatial technologies in web applications! Below you'll find links to my slides and demo projects used during the talk.
 
