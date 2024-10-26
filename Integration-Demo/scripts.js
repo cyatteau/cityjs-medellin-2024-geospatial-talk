@@ -1,5 +1,4 @@
-const accessToken =
-  "AAPKa24ce319220f4464a7a229adfa6a70f2xBFqKZVg2MuE-yIOH5bRxyAihO90KFCr7GDp1bzOVgAFMvCckaqSiynY_LGHKm3R";
+const accessToken = "YOUR_OWN_ARCGIS_API_KEY"; //Sign up for a free ArcGIS Location Platform Account to get your own at https://location.arcgis.com/sign-up/
 const authentication = arcgisRest.ApiKeyManager.fromKey(accessToken);
 
 //https://basemapstyles-api.arcgis.com/arcgis/rest/services/styles/v2/styles/${basemapEnum}?token=${accessToken}
