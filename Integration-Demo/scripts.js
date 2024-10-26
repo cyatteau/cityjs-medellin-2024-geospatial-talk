@@ -1,21 +1,23 @@
-const accessToken = "YOUR_OWN_ARCGIS_API_KEY"; //Sign up for a free ArcGIS Location Platform Account to get your own at https://location.arcgis.com/sign-up/
+const accessToken =
+  "AAPKa24ce319220f4464a7a229adfa6a70f2xBFqKZVg2MuE-yIOH5bRxyAihO90KFCr7GDp1bzOVgAFMvCckaqSiynY_LGHKm3R";
 const authentication = arcgisRest.ApiKeyManager.fromKey(accessToken);
 
+//https://basemapstyles-api.arcgis.com/arcgis/rest/services/styles/v2/styles/${basemapEnum}?token=${accessToken}
 const basemapEnum = "arcgis/streets";
 // items/f4331849dcac4e00ac2b047d9c716907
 
 const map = new maplibregl.Map({
   container: "map",
-  style: `https://basemapstyles-api.arcgis.com/arcgis/rest/services/styles/v2/styles/${basemapEnum}?token=${accessToken}`,
-  zoom: 8,
+  style: `https://demotiles.maplibre.org/style.json`,
+  zoom: 2,
   center: [-75.5800345, 6.2482172],
 });
 
-//DRAWING TOOL
+// DRAWING TOOL
 // MapboxDraw.constants.classes.CONTROL_BASE = "maplibregl-ctrl";
 // MapboxDraw.constants.classes.CONTROL_PREFIX = "maplibregl-ctrl-";
 // MapboxDraw.constants.classes.CONTROL_GROUP = "maplibregl-ctrl-group";
-// const draw = new MapboxDraw({ 
+// const draw = new MapboxDraw({
 //   displayControlsDefault: false,
 //   controls: {
 //     point: true,
@@ -25,7 +27,6 @@ const map = new maplibregl.Map({
 // });
 // map.addControl(draw, "top-left");
 
-// //add query layer
 // function addQueryLayer() {
 //   map.addSource("query", {
 //     type: "geojson",
