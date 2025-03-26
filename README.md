@@ -8,6 +8,12 @@ You can view or download the presentation slides here:
 
 - [Slides PDF](https://github.com/cyatteau/cityjs-medellin-2024-geospatial-talk/blob/main/Slides.pdf)
 
+## Requirements
+
+Before running most of the demo projects, please ensure you have the following:
+
+- Sign up for an [ArcGIS Location Platform Account](https://developers.arcgis.com/) to access necessary APIs and services.
+
 ## Demo Projects
 
 I presented several demos during the talk, each showcasing different aspects of geospatial technologies. You can explore them in the following folders:
@@ -21,11 +27,6 @@ I presented several demos during the talk, each showcasing different aspects of 
 3. **Integration Demo**: This folder contains a demo that integrates MapLibre GL JS, ArcGIS VTSE, and ArcGIS REST JS functionalities.
    - [Integration Demo](https://github.com/cyatteau/cityjs-medellin-2024-geospatial-talk/tree/main/Integration-Demo)
 
-## Requirements
-
-Before running most of the demo projects, please ensure you have the following:
-
-- Sign up for an [ArcGIS Location Platform Account](https://developers.arcgis.com/) to access necessary APIs and services.
 
 ## Getting Started
 
